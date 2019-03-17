@@ -20,7 +20,7 @@ Format.prototype.currentIndex = 0;
 /**
  * Returns information about the current selection.
  */
-Format.prototype.showCloseButton = true;
+Format.prototype.showCloseButton = false;
 
 /**
  * Background color for inactive tabs.

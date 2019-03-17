@@ -977,7 +977,7 @@ EditorUi.prototype.toolbarHeight = 34;
 /**
  * Specifies the height of the footer. Default is 28.
  */
-EditorUi.prototype.footerHeight = 28;
+EditorUi.prototype.footerHeight = 0;
 
 /**
  * Specifies the height of the optional sidebarFooterContainer. Default is 34.
@@ -3123,7 +3123,7 @@ EditorUi.prototype.createUi = function()
 	if (this.sidebar != null)
 	{
 		this.container.appendChild(this.hsplit);
-		
+
 		this.addSplitHandler(this.hsplit, true, 0, mxUtils.bind(this, function(value)
 		{
 			this.hsplitPosition = value;
